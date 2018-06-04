@@ -1,0 +1,176 @@
+body,html{
+        margin: 0;
+        height: 100%;
+    }
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+#fondoauteri{
+    margin-bottom: 10%; 
+    margin-left: 8%; 
+    margin-right: 8%;
+}
+
+.readmore{
+    cursor: pointer;
+    color: dimgray;
+    font-weight: 550;
+    }
+#fondoauteri .row{
+    margin-top: 3%;
+}
+
+.descrizioni{
+    margin-top: 10%;
+    font-size: 96%;
+    color: dimgray;
+}
+
+.readmore:hover{
+    text-decoration: none;
+    color: #577a57;
+}
+
+.item{
+    overflow: hidden;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+    color: forestgreen !important;
+}
+.navbar-nav li a:hover {
+    color: forestgreen !important;
+}
+.navbar-nav li.active a {
+    color: forestgreen !important;
+}
+
+.open .dropdown-toggle {
+    color: forestgreen;
+    background-color: #555 !important;
+}
+
+.form-control {
+    border-radius: 0;
+}
+textarea {
+    resize: none;
+}
+ @media only screen and (max-width: 768px) {
+     #covermobile{
+         display: block;
+    }
+    .head{
+         display: none;
+     }
+}
+    
+@media (min-width: 768px) { /* DESKTOP */
+     #covermobile{
+         display: none;
+    }
+     .carousel {
+         display: block;
+     }
+    #gallery{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+    h3{
+         color: #577a57;
+    }
+    
+    .thumbnail{
+        border: 0px;
+    }
+
+.btn:hover{
+    color: white;
+}
+
+.overlay {
+    margin-top: -25%;
+    position: absolute; 
+    width: 90%;
+    color: white; 
+    padding-left: 4%;
+    font-family: sans-serif bold;
+    font-size: 25px;
+    text-align: right;
+    text-shadow: 2px 2px darkslategrey;
+    }
+
+.btn{
+    margin-left: 27%;
+    background-color: royalblue;
+    opacity: 1;
+    transition: 0.4s;
+    color: whitesmoke;
+}
+
+#camere .col-sm-3{
+    margin-left: 6%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+#camere p{
+    padding-left: 4%;
+    color: lightgrey;
+    margin-top: -2%;
+}
+
+.fotoicon{
+    margin-top: -75%;
+    opacity: 0.6; 
+    max-width:100%;
+    transition: 0.5s;
+    width: 70%; 
+    margin-left: 15%;
+}
+
+.fotoicon:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    opacity: 0.8;
+} 
+
+.hov:hover{
+    -ms-transform: scale(1.05); 
+    -webkit-transform: scale(1.05); 
+    transform: scale(1.05); 
+}
+
+.hov{
+    transition: transform 0.4s;
+}
+
+#layer, #welcometo, #fondo{
+    position: absolute;
+    top:0;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+
+@media (max-width: 768px) { /* mobile */
+    #layer, #welcometo, #fondo{
+    position: absolute;
+    margin-top: 19.7%;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    }
+}

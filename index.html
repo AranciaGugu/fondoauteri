@@ -5,19 +5,576 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<link href="css/fondo-auteristyle.css" rel="stylesheet" type="text/css">
+<link href="css/animazioni.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-<div class="container">
-    <div class="logo col-sm-12 col-xs-12"></div>
-  <div class="left col-sm-6 col-xs-6" style="height: 100%;">
-      <a href="fondo-auteri/index.html"><div class="casa-vacanze"></div></a>
+    
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"><img class="logo" src="media/logo.jpg" height="150px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#fondoauteri">FONDO AUTERI</a></li>
+        <li><a href="#camere">CAMERE</a></li>
+          <li><a href="#dovesiamo">CONTATTI</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="right col-sm-6 col-xs-6" style="height: 100%;">
-      <a href="eventi/index.html"><div class="event"></div></a>
+</nav>
+<div id="myCarousel" class="head carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="media/001.jpg">     
+      </div>
+      <div class="item">
+        <img src="media/002.jpg">
+      </div>
+      <div class="item">
+        <img src="media/003.jpg">
+      </div>
+     <div class="item">
+        <img src="media/004.jpg">
+      </div>
+     <div class="item">
+        <img src="media/005.jpg">
+      </div> 
+    <div class="item">
+        <img src="media/006.jpg">
+      </div> 
+    <div class="item">
+        <img src="media/007.jpg">
+      </div> 
+    </div>
+</div> 
+ <img id="layer" class="animated fadeIn" src="media/cover/grafica.png">
+<img id="welcometo" class="animated fadeIn" src="media/cover/welcometo.png">
+<img id="fondo" class="dopo fadeInUp" src="media/cover/fondoauteri.png"> 
+<div id="covermobile">
+    <img id="layer" class="animated fadeInRight" src="media/cover/grafica.png">
+    <img id="welcometo" class="animated fadeIn" src="media/cover/welcometo.png">
+    <img id="fondo" class="dopo fadeInUp" src="media/cover/fondoauteri.png"> 
+    <img src="media/012.jpg" width=100%> 
+</div>  
+<br><br><br>
+<div id="fondoauteri" class="container-fluid text-center"><br><br><br> 
+  <h3>STORIA</h3>
+  <p><em>Fondo Auteri</em></p>
+  <div class="col-sm-4" ><a href="http:\\www.cooperativavogliadivivere.it" target="_blank"><img src="media/cvv-logo.png" height="250px;"></a></div><div class="col-sm-8" style="margin-bottom: 10%;"><span style="text-align: left;"><p>La tenuta Auteri - Malato è situata, fronte mare, nella zona tonnara di Bonagia  Monte Cofano, alle prime pendici del sistema collinare che conduce al nucleo centrale del paese di Valderice. <br><br> Salvatore Auteri, ingegnere agronomo, nato a Paceco nella seconda metà del’800, massone, presidente della sezione del tirassegno di Trapani, esponente politico di gruppi di progressisti, si era impegnato ad utilizzare il <strong>Fondo Auteri</strong> per creare un sistema di conduzione agricola avanzata. A lui si deve l’introduzione, nella Provincia di Trapani, delle arance Washington, del vitigno Chardonnay e di colture arboree particolari come le palme da dattero, il cedro del Libano e i pini ad ombrello. <br><br> Col tempo però la casa e il terreno furono abbandonati riducendo il Fondo Auteri a res nullis in balia dei pastori che, secondo i loro sistemi hanno accelerato il degrado dell’ambiente. Dopo la parentesi Saman, che ha visto l’inizio di una inversione di tendenza, il Fondo Auteri è entrato nella disponibilità del comune di Valderice e gestito dalla <strong>Cooperativa Sociale “Voglia di Vivere”</strong>, che ha fatto modo di far rinascere il Fondo mettendolo a disposizione come casa vacanze, con le sue tre stanze, e sfruttando l’ampio spazio aperto per eventi culturali, d’aggregazione, visite didattiche, eventi e molto altro.<br><br> <a class="btn" href="../eventi/index.html" style="cursor: pointer;color: dimgray; font-weight: 550;">SCOPRI TUTTI I SERVIZI E GLI EVENTI</a></p></span></div>
+    <h3 style="margin-top: 10%;">COSA VEDERE</h3>
+  <p><em>Luoghi di interesse nelle vicinanze</em></p>    
+  <div class="row slideanim">
+    <div class="col-sm-4"><br>
+      <p class="text-center"><strong>Trapani</strong></p><br>
+      <a data-toggle="modal" data-target=".modal-trapani" href="#trapani" data-slide-to="0">
+        <img src="media/Trapani/cover.jpg" class="img-circle hov"  width="250" height="250">
+      </a>
+      <div class="descrTrapani descrizioni">
+        <p>Trapani, città tra due mari (mediterraneo e tirreno), con la sua caratteristica forma a falce, è un mix tra storia e natura. A Trapani è possibile visitare monumenti e siti <br><a class="readmore">MOSTRA ALTRO</a><span class="trapanimore" style="display: none;">come la Cattedrale di S.Lorenzo, Palazzo Cavarretta, Torre di Ligny, le Mura di Tramontana, le Riserve delle Saline di Trapani e dello stagnone di Marsala e molto altro.</span></p>
+        <a href="https://www.google.it/maps/dir/Fondo+Auteri,+Via+Cristoforo+Colombo,+11,+91019+Sant'Andrea+Bonagia+TP/Corso+Vittorio+Emanuele,+91100+Trapani+TP/@38.0126336,12.5065546,15.25z/data=!4m14!4m13!1m5!1m1!1s0x13196357dd3fb927:0x4e28ac579ed4015!2m2!1d12.6097777!2d38.0539319!1m5!1m1!1s0x131961a2be8d15f5:0x415c5f8331ee755e!2m2!1d12.5059226!2d38.0160367!3e0" target="_blank"><p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Indicazioni Trapani</p></a>
+      </div>
+    </div>
+    <div class="col-sm-4"><br>
+      <p class="text-center"><strong>Erice Vetta</strong></p><br>
+      <a data-toggle="modal" data-target=".modal-erice" href="#erice" data-slide-to="0">
+        <img src="media/Erice/cover.jpg" class="img-circle hov"  width="250" height="250;">
+      </a>
+      <div class="descrErice descrizioni">
+          <p>Erice è una piccola città medievale situata alla vetta del monte S.Giuliano che domina la città con i suoi 751m sul livello del mare. La città medievale conserva tutt'ora <br><a class="readmore">MOSTRA ALTRO</a><span class="ericemore" style="display: none;">tutto il suo splendore e la sua originalità. A Erice, oltre ai fantastici panorami e scorci, è possibile apprezzare il Castello di Venere, le porte della città, la Chiesa Matrice, il quartiere Spagnolo e le altre innumerevoli nelle chiese nelle antiche stradine della città</span></p>
+        <a href="https://www.google.it/maps/dir/Fondo+Auteri,+Via+Cristoforo+Colombo,+11,+91019+Sant'Andrea+Bonagia+TP/Erice,+TP/@38.0441725,12.5946955,15.13z/data=!4m14!4m13!1m5!1m1!1s0x13196357dd3fb927:0x4e28ac579ed4015!2m2!1d12.6097777!2d38.0539319!1m5!1m1!1s0x1319636d513de1b3:0x3e8c8cffc10dfb62!2m2!1d12.5873511!2d38.0380892!3e0" target="_blank"><p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Indicazioni Erice</p></a>
+      </div>
+      </div>
+    <div class="col-sm-4"><br>
+      <p class="text-center"><strong>Cornino / Monte Cofano</strong></p><br>
+      <a data-toggle="modal" data-target=".modal-cornino" href="#cornino" data-slide-to="0">
+        <img src="media/Cornino/cover.jpg" class="img-circle hov" width="250" height="250">
+      </a>
+      <div class="descrCornino descrizioni">
+          <p>Cornino, nella costa trapanese, può vantare un litorale ben attrezzato seguito da una parte di scogliera naturale con pedane in legno per facilitare l'accesso <br><a class="readmore">MOSTRA ALTRO</a><span class="corninomore" style="display: none;">al mare. La Baia Cornino è inoltre situata ai piedi di  Monte Cofano, sovrano dell'omonima riserva naturale.</span></p>
+        <a href="https://www.google.it/maps/dir/Fondo+Auteri,+Via+Cristoforo+Colombo,+11,+91019+Sant'Andrea+Bonagia+TP/38.0944136,12.6634019/@38.0612411,12.5990167,14.49z/data=!4m9!4m8!1m5!1m1!1s0x13196357dd3fb927:0x4e28ac579ed4015!2m2!1d12.6097777!2d38.0539319!1m0!3e0" target="_blank"><p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Indicazioni Cornino / Monte Cofano</p></a>
+      </div>
     </div>
 </div>
+    <div class="row slideanim">
+    <div class="col-sm-4"><br>
+      <p class="text-center"><strong>Pizzolungo / Tonnara di Bonagia</strong></p><br>
+      <a data-toggle="modal" data-target=".modal-pizzolungo" href="#pizzolungo" data-slide-to="0">
+        <img src="media/Pizzolungo-TonnaraBonagia/cover.jpg" class="img-circle hov"  width="250" height="250">
+      </a>
+      <div class="descrPizzolungo descrizioni">
+          <p>Bonagia si trova a poche centinaia di metri da Fondo Auteri, percorrendo la strada che porta a Trapani. Qui si trova sul mare una delle più antiche tonnare <br><a class="readmore">MOSTRA ALTRO</a> <span class="pizzolungomore" style="display: none;">dell'isola, un luogo ricco di storie da raccontare. Oggi, non più attiva, la Tonnara è stata trasformata in albergo, conservando però in parte la sua fisionomia originaria. Nelle vicinanze è possibile raggiungere delle piccole calette dove poter fare il bagno e ammirare tramonti mozzafiato. Tra le più belle, sicuramente, le calette di Pizzolungo, veri angoli di paradiso nascosti.</span></p>
+        <a href="https://www.google.it/maps/dir/Fondo+Auteri,+Via+Cristoforo+Colombo,+11,+91019+Sant'Andrea+Bonagia+TP/38.0669463,12.5681478/@38.0660218,12.5653624,16.5z/data=!4m9!4m8!1m5!1m1!1s0x13196357dd3fb927:0x4e28ac579ed4015!2m2!1d12.6097777!2d38.0539319!1m0!3e0" target="_blank"><p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Indicazioni Pizzolungo </p></a>
+       <a href="https://www.google.it/maps/dir/Fondo+Auteri,+Via+Cristoforo+Colombo,+11,+91019+Sant'Andrea+Bonagia+TP/38.0679107,12.5948082/@38.0678918,12.5946718,19z/data=!4m9!4m8!1m5!1m1!1s0x13196357dd3fb927:0x4e28ac579ed4015!2m2!1d12.6097777!2d38.0539319!1m0!3e0" target="_blank"><p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Indicazioni Tonnara </p></a>  
+      </div>
+    </div>
+    <div class="col-sm-4"><br>
+      <p class="text-center"><strong>Lido Valderice</strong></p><br>
+      <a data-toggle="modal" data-target=".modal-lidovalderice" href="#lidovalderice" data-slide-to="0">
+        <img src="media/LidoValderice/cover.jpg" class="img-circle hov"  width="250" height="250;">
+      </a>
+      <div class="descrLidovalderice descrizioni">
+          <p>E la principale spiaggia di Valderice, situata ai piedi del monte Erice, si trova adagiata in una suggestiva conca naturale. Il fondale è basso e sabbioso in prossimità <br><a class="readmore">MOSTRA ALTRO</a><span class="lidovaldericemore" style="display: none;">della battigia, ideale per famiglie con bambini. Intorno alla piccola spiaggia è possibile percorrere e tuffarsi dalla bassa scogliera.</span></p>
+        <a href="https://www.google.co.uk/maps/dir/Fondo+Auteri,+Via+Cristoforo+Colombo,+11,+91019+Sant'Andrea+Bonagia+TP/38.0646074,12.6050731/@38.0592216,12.6016285,16z/data=!4m9!4m8!1m5!1m1!1s0x13196357dd3fb927:0x4e28ac579ed4015!2m2!1d12.6097777!2d38.0539319!1m0!3e2" target="_blank"><p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Indicazioni Lido Valderice </p></a>
+      </div>
+      </div>
+    <div class="col-sm-4"><br>
+      <p class="text-center"><strong>San Vito Lo Capo / Riserva dello Zingaro</strong></p><br>
+      <a data-toggle="modal" data-target=".modal-sanvito" href="#sanvito" data-slide-to="0">
+        <img src="media/luogo2.JPG" class="img-circle hov" width="250" height="250">
+      </a>
+      <div class="descrSanvito descrizioni">
+          <p>Rinominata località balneare, nota per la sua meravigliosa spiaggia considerata tra le migliori d'Italia. Ogni anno San Vito ospita eventi e festival tra cui i due festival internazionali più importanti e affermati<br><a class="readmore">MOSTRA ALTRO</a><span class="sanvitomore" style="display: none;"> come quello degli aquiloni a Maggio e il cous cous fest a Settembre. Non lontano, è possibile immergersi nella natura tra i percorsi e le meravigliose calette della Riserva Naturale Orientata dello Zingaro</span></p>
+        <a href="https://www.google.it/maps/dir/Fondo+Auteri,+Via+Cristoforo+Colombo,+11,+91019+Sant'Andrea+Bonagia+TP/38.177763,12.731935/@38.1763577,12.7319844,17.25z/data=!4m9!4m8!1m5!1m1!1s0x13196357dd3fb927:0x4e28ac579ed4015!2m2!1d12.6097777!2d38.0539319!1m0!3e0" target="_blank"><p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Indicazioni San Vito </p></a>
+          <a href="https://www.google.it/maps/dir/Fondo+Auteri,+Via+Cristoforo+Colombo,+11,+91019+Sant'Andrea+Bonagia+TP/Riserva+Naturale+Orientata+dello+Zingaro,+San+Vito+Lo+Capo,+TP/@38.0729205,12.7346097,11.75z/data=!4m14!4m13!1m5!1m1!1s0x13196357dd3fb927:0x4e28ac579ed4015!2m2!1d12.6097777!2d38.0539319!1m5!1m1!1s0x1319780cbd869a3f:0x7faa3f70f032dbb!2m2!1d12.7987973!2d38.0989138!3e0" target="_blank"><p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Indicazioni Riserva dello Zingaro </p></a>
+      </div>
+    </div>
+  </div>
+</div>  
+
+    
+<div id="camere" class="container text-center" style="margin-bottom: 10%;" >
+    <div class="row">
+     <h3>LE CAMERE</h3><br>
+      <div class="col-sm-3 text-left" style="margin-bottom: 20px;">
+       <img src="media/stanza1.jpg" style="max-width:100%;"/><a data-toggle="modal" data-target=".modal-camera1" data-slide-to="0"><img class="fotoicon" src="media/tastofoto.png"></a><div class="overlay">35€ a notte</div><br><br>
+         <h3 style="color:royalblue; margin-top: -10%; padding: 4%;">Camera 1</h3>
+            <p>Descrizione</p>
+            <p>Descrizione</p>
+            <p>Descrizione</p>
+            <p>&nbsp;</p>
+           <a href="#dovesiamo" class="btn">PRENOTA ORA</a>
+      </div>
+        <div class="col-sm-3 text-left" style="margin-bottom: 20px;">
+            <img src="media/stanza2.jpg" style="max-width:100%;"/><a data-toggle="modal" data-target=".modal-camera2" data-slide-to="0"><img class="fotoicon" src="media/tastofoto.png"></a><div class="overlay">35€ a notte</div><br><br>
+          <h3 style="color:royalblue; margin-top: -10%; padding: 4%;">Camera 2</h3>
+            <p>Descrizione</p>
+            <p>Descrizione</p>
+            <p>Descrizione</p>
+            <p>&nbsp;</p>
+           <a href="#dovesiamo" class="btn">PRENOTA ORA</a>
+      </div>
+       <div class="col-sm-3 text-left"style="margin-bottom: 20px;">
+           <img src="media/stanza3.jpg" style="max-width:100%;"/><a data-toggle="modal" data-target=".modal-camera3" data-slide-to="0"><img class="fotoicon" src="media/tastofoto.png"></a><div class="overlay">35€ a notte</div><br><br>
+          <h3 style="color:royalblue; margin-top: -10%; padding: 4%;">Camera 3</h3>
+            <p>Descrizione</p>
+            <p>Descrizione</p>
+            <p>Descrizione</p>
+            <p>&nbsp;</p>
+           <a href="#dovesiamo" class="btn">PRENOTA ORA</a>
+      </div>
+    </div>
+</div>
+    
+<div id="gallery" class="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#gallery" data-slide-to="0" class="active"></li>
+        <li data-target="#gallery" data-slide-to="1"></li>
+        <li data-target="#gallery" data-slide-to="2"></li>
+        <li data-target="#gallery" data-slide-to="3"></li>
+        <li data-target="#gallery" data-slide-to="4"></li>
+        <li data-target="#gallery" data-slide-to="5"></li>
+        <li data-target="#gallery" data-slide-to="6"></li>
+        <li data-target="#gallery" data-slide-to="7"></li>
+        <li data-target="#gallery" data-slide-to="8"></li>
+        <li data-target="#gallery" data-slide-to="9"></li>
+        <li data-target="#gallery" data-slide-to="10"></li>
+        <li data-target="#gallery" data-slide-to="11"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="media/gallery/001.jpg" height=50%>     
+      </div>     
+    
+      <div class="item">
+        <img src="media/gallery/002.jpg">     
+      </div>
+    
+     <div class="item">
+        <img src="media/gallery/003.jpg">      
+      </div>
+        
+     <div class="item">
+        <img src="media/gallery/004.jpg">     
+      </div>
+        
+     <div class="item">
+        <img src="media/gallery/005.jpg">     
+      </div>
+        
+     <div class="item">
+        <img src="media/gallery/006.jpg">   
+      </div>
+        
+     <div class="item">
+        <img src="media/gallery/007.jpg">     
+      </div>
+        
+     <div class="item">
+        <img src="media/gallery/008.jpg">     
+      </div>
+        
+     <div class="item">
+        <img src="media/gallery/009.jpg">     
+      </div>
+        
+    <div class="item">
+        <img src="media/gallery/011.jpg">     
+      </div>
+        
+    <div class="item">
+        <img src="media/gallery/013.jpg">     
+      </div>  
+        
+    <div class="item">
+        <img src="media/gallery/014.jpg">     
+      </div> 
+</div>
+    <a class="left carousel-control" href="#gallery" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Indietro</span>
+    </a>
+    <a class="right carousel-control" href="#gallery" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Avanti</span>
+    </a>
+</div>
+    
+<br><br><br>
+    
+<div id="dovesiamo" class="container" style="background-color: #577a57; color: white; width: 100%;"><br><br>
+  <h3 class="text-center" style="color: white;">Contatti</h3>
+  <p class="text-center"><em>Prenota ora la tua camera!</em></p><br>
+
+  <div class="row" style="margin-left: 8%; margin-right: 8%;">
+    <div class="col-md-4">
+      <p>Vuoi prenotare? Scrivici!</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Via Cristoforo Colombo, 11 Bonagia TP</p>
+      <p><span class="glyphicon glyphicon-phone"></span>&nbsp;Telefono: +39 3272088532</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>&nbsp;Email: prenotazioni@fondoauteri.com</p>
+    </div>
+  <form action="mail_handler.php" method="post">
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-4 form-group">
+          <input class="form-control" type="text" name="first_name" placeholder="Nome" required>
+        </div>
+       <div class="col-sm-4 form-group">
+          <input class="form-control" type="text" name="last_name" placeholder="Cognome" required>
+        </div>
+        <div class="col-sm-2 form-group" style="color: black;" required>
+            <select class="form-control" name="ospiti">
+              <option value="1">1 Ospite</option>
+              <option value="2">2 Ospiti</option>
+              <option value="3">3 Ospiti</option>
+            </select>
+        </div>  
+    </div>
+        <div class="row">
+            <div class="col-sm-4 form-group">
+              <input class="form-control" type="number" name="number" placeholder="Numero di telefono" required>
+            </div>
+            <div class="col-sm-4 form-group">
+              <input class="form-control"  name="email" type="email" placeholder="E-mail" required>
+            </div>
+            <div class="col-sm-2 form-group" style="color: black;" required>
+                <select class="form-control" name="camera">
+                  <option value="camera1">Camera 1</option>
+                  <option value="camera2">Camera 2</option>
+                  <option value="camera3">Camera 3</option>
+                </select>
+            </div>
+        </div>
+      <textarea class="form-control"  name="comments" placeholder="Data e informazioni aggiuntive" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit" name="submit" value="Submit">INVIA RICHIESTA</button><br><br>
+        </div>
+      </div>
+    </div>
+  </form>
+  </div>
+</div> 
+    
+<!-- GALLERIE -->
+<div class="modal fade modal-camera1" id="camera1"><!--GALLERIA CAMERA 1-->
+<div class="modal-dialog">  
+<div class="modal-body">
+<div id="camera1-gallery" class="carousel slide" data-interval="false">
+    <div class="carousel-inner">
+        <div class="item active"> 
+            <img src="media/camere/stanza-1/001.jpg" alt="item0">
+        </div>  
+        <div class="item"> 
+            <img src="media/camere/stanza-1/002.jpg" alt="item3">
+        </div>
+        <div class="item"> 
+            <img src="media/camere/stanza-1/003.jpg" alt="item3">
+        </div>
+        <div class="item"> 
+            <img src="media/camere/stanza-1/004.jpg" alt="item3">
+        </div>  
+        <div class="item"> 
+            <img src="media/camere/stanza-1/005.jpg" alt="item1">
+        </div>
+        <div class="item"> 
+            <img src="media/camere/stanza-1/006.jpg" alt="item2">
+        </div>
+       <div class="item"> 
+            <img src="media/camere/stanza-1/007.jpg" alt="item2">
+        </div>
+    </div>
+<a class="left carousel-control" href="#camera1-gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#camera1-gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!--Fine gallery-->
+</div><!--end modal-body-->
+</div><!--end myModal-->
+</div>       
+    
+    
+<div class="modal fade modal-camera2" id="camera2"><!--GALLERIA CAMERA 2-->
+<div class="modal-dialog">  
+<div class="modal-body">
+<div id="camera2-gallery" class="carousel slide" data-interval="false">
+    <div class="carousel-inner">
+        <div class="item active"> 
+            <img src="media/camere/stanza-2/001.jpg" alt="item0">
+        </div>  
+        <div class="item"> 
+            <img src="media/camere/stanza-2/002.jpg" alt="item3">
+        </div>
+        <div class="item"> 
+            <img src="media/camere/stanza-2/003.jpg" alt="item3">
+        </div>
+        <div class="item"> 
+            <img src="media/camere/stanza-2/004.jpg" alt="item3">
+        </div>  
+        <div class="item"> 
+            <img src="media/camere/stanza-2/005.jpg" alt="item1">
+        </div>
+        <div class="item"> 
+            <img src="media/camere/stanza-2/006.jpg" alt="item2">
+        </div>
+       <div class="item"> 
+            <img src="media/camere/stanza-2/007.jpg" alt="item2">
+        </div>
+       <div class="item"> 
+            <img src="media/camere/stanza-2/008.jpg" alt="item2">
+        </div>
+       <div class="item"> 
+            <img src="media/camere/stanza-2/009.jpg" alt="item2">
+        </div>
+    </div>
+<a class="left carousel-control" href="#camera2-gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#camera2-gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!--Fine gallery-->
+</div><!--end modal-body-->
+</div><!--end myModal-->
+</div>       
+    
+<div class="modal fade modal-camera3" id="camera3"><!--GALLERIA CAMERA 3-->
+<div class="modal-dialog">  
+<div class="modal-body">
+<div id="camera3-gallery" class="carousel slide" data-interval="false">
+    <div class="carousel-inner">
+        <div class="item active"> 
+            <img src="media/camere/stanza-3/001.jpg" alt="item0">
+        </div>  
+        <div class="item"> 
+            <img src="media/camere/stanza-3/002.jpg" alt="item3">
+        </div>
+        <div class="item"> 
+            <img src="media/camere/stanza-3/003.jpg" alt="item3">
+        </div>
+        <div class="item"> 
+            <img src="media/camere/stanza-3/004.jpg" alt="item3">
+        </div>  
+        <div class="item"> 
+            <img src="media/camere/stanza-3/005.jpg" alt="item1">
+        </div>
+        <div class="item"> 
+            <img src="media/camere/stanza-3/006.jpg" alt="item2">
+        </div>
+       <div class="item"> 
+            <img src="media/camere/stanza-3/007.jpg" alt="item2">
+        </div>
+    </div>
+<a class="left carousel-control" href="#camera3-gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#camera3-gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!--Fine gallery-->
+</div><!--end modal-body-->
+</div><!--end myModal-->
+</div>     
+    
+<div class="modal fade modal-trapani" id="trapani"><!--GALLERIA TRAPANI-->
+<div class="modal-dialog">  
+<div class="modal-body">
+<div id="trapani-gallery" class="carousel slide" data-interval="false">
+    <div class="carousel-inner">
+        <div class="item active"> 
+            <img src="media/Trapani/001.jpg" alt="item0">
+        </div>  
+        <div class="item"> 
+            <img src="media/Trapani/004.jpg" alt="item3">
+        </div>
+        <div class="item"> 
+            <img src="media/Trapani/005.jpg" alt="item3">
+        </div>
+        <div class="item"> 
+            <img src="media/Trapani/006.jpg" alt="item3">
+        </div>  
+        <div class="item"> 
+            <img src="media/Trapani/002.jpg" alt="item1">
+        </div>
+        <div class="item"> 
+            <img src="media/Trapani/003.jpg" alt="item2">
+        </div>
+    </div>
+<a class="left carousel-control" href="#trapani-gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#trapani-gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!--Fine gallery-->
+</div><!--end modal-body-->
+</div><!--end myModal-->
+</div>     
+    
+<div class="modal fade modal-erice" id="erice"><!--GALLERIA ERICE-->
+<div class="modal-dialog">  
+<div class="modal-body">
+<div id="erice-gallery" class="carousel slide" data-interval="false">
+    <div class="carousel-inner">
+        <div class="item active"> 
+            <img src="media/Erice/001.jpg" alt="item0">
+        </div>  
+        <div class="item"> 
+            <img src="media/Erice/002.jpg" alt="item1">
+        </div>
+        <div class="item"> 
+            <img src="media/Erice/003.jpg" alt="item2">
+        </div>
+        <div class="item"> 
+            <img src="media/Erice/004.jpg" alt="item3">
+        </div>
+    </div>
+<a class="left carousel-control" href="#erice-gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#erice-gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!--Fine gallery-->
+</div><!--end modal-body-->
+</div><!--end myModal-->
+</div>     
+    
+<div class="modal fade modal-cornino" id="cornino"><!--GALLERIA CORNINO-->
+<div class="modal-dialog">  
+<div class="modal-body">
+<div id="cornino-gallery" class="carousel slide" data-interval="false">
+    <div class="carousel-inner">
+        <div class="item active"> 
+            <img src="media/Cornino/001.jpg" alt="item0">
+        </div>  
+        <div class="item"> 
+            <img src="media/Cornino/002.jpg" alt="item1">
+        </div>
+        <div class="item"> 
+            <img src="media/Cornino/003.jpg" alt="item2">
+        </div>
+    </div>
+<a class="left carousel-control" href="#cornino-gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#cornino-gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!--Fine gallery-->
+</div><!--end modal-body-->
+</div><!--end myModal-->
+</div>  
+    
+<div class="modal fade modal-pizzolungo" id="pizzolungo"><!--GALLERIA PIZZOLUNGO-->
+<div class="modal-dialog">  
+<div class="modal-body">
+<div id="pizzolungo-gallery" class="carousel slide" data-interval="false">
+    <div class="carousel-inner">
+        <div class="item active"> 
+            <img src="media/Pizzolungo-TonnaraBonagia/001.jpg" alt="item0">
+        </div>  
+        <div class="item"> 
+            <img src="media/Pizzolungo-TonnaraBonagia/002.jpg" alt="item1">
+        </div>
+        <div class="item"> 
+            <img src="media/Pizzolungo-TonnaraBonagia/003.jpg" alt="item2">
+        </div>
+        <div class="item"> 
+            <img src="media/Pizzolungo-TonnaraBonagia/004.jpg" alt="item3">
+        </div>
+        <div class="item"> 
+            <img src="media/Pizzolungo-TonnaraBonagia/005.jpg" alt="item4">
+        </div>
+        <div class="item"> 
+            <img src="media/Pizzolungo-TonnaraBonagia/006.jpg" alt="item5">
+        </div>
+    </div>
+<a class="left carousel-control" href="#pizzolungo-gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#pizzolungo-gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!--Fine gallery-->
+</div><!--end modal-body-->
+</div><!--end myModal-->
+</div>
+    
+<div class="modal fade modal-lidovalderice" id="lidovalderice"><!--GALLERIA LIDO VALDERICE-->
+<div class="modal-dialog">  
+<div class="modal-body">
+<div id="lidovalderice-gallery" class="carousel slide" data-interval="false">
+    <div class="carousel-inner">
+        <div class="item active"> 
+            <img src="media/LidoValderice/001.jpg" alt="item0">
+        </div>  
+        <div class="item"> 
+            <img src="media/LidoValderice/002.jpg" alt="item1">
+        </div>
+        <div class="item"> 
+            <img src="media/LidoValderice/003.jpg" alt="item2">
+        </div>
+                <div class="item"> 
+            <img src="media/LidoValderice/004.jpg" alt="item3">
+        </div>
+    </div>
+<a class="left carousel-control" href="#lidovalderice-gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#lidovalderice-gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!--Fine gallery-->
+</div><!--end modal-body-->
+</div><!--end myModal-->
+</div>
+    
+<div class="modal fade modal-sanvito" id="sanvito"><!--GALLERIA SAN VITO-->
+<div class="modal-dialog">  
+<div class="modal-body">
+<div id="sanvito-gallery" class="carousel slide" data-interval="false">
+    <div class="carousel-inner">
+        <div class="item active"> 
+            <img src="#" alt="item0">
+        </div>  
+    </div>
+<a class="left carousel-control" href="#sanvito-gallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#sanvito-gallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!--Fine gallery-->
+</div><!--end modal-body-->
+</div><!--end myModal-->
+</div>      
+<!-- FINE GALLERIE -->         
+<div id="googleMap" style="width:100%;height:400px;"></div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(38.053944, 12.609813);
+var mapProp= {
+    center:myCenter,
+    zoom:12,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+<footer style="width: 100%; height: 30px; background-color: black"></footer>
+<script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap">//METTERE API KEY</script>
+    
+<script src="js/animazioni.js"></script>
 </body>
 </html>
